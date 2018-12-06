@@ -1,6 +1,4 @@
-function toInt(inputData) {
-    return inputData.map(stringNumber => Number(stringNumber));
-}
+const toInt = inputData => inputData.map(Number);
 
 function calculateFrequencyReachedTwice(inputData) {
     const intInputData = toInt(inputData);
