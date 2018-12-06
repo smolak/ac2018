@@ -3,12 +3,6 @@ const assert = require('assert');
 const calculateFrequency = require('../../day01/calculateFrequency');
 
 describe('calculateFrequency', () => {
-    it('should return 0 for empty input', () => {
-        const inputData = [];
-
-        assert.equal(calculateFrequency(inputData), 0);
-    });
-
     it('should return positive value for one positive string-number', () => {
         const inputData = [ '+1' ];
 
